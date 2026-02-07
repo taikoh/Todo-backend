@@ -15,7 +15,7 @@ router.get('/', isAuth, async (req, res) => {
 
     // #swagger.tags = ["Todos"]
     /* #swagger.description = "Gets the list of all todo's with categories associated with each todo and
-								status that is not the deleted status." */
+	status that is not the deleted status." */
 	try {
 		const userId = req.user.id;
 
