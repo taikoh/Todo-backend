@@ -3,7 +3,7 @@ const request = require("supertest");
 const jsend = require("jsend");
 require("dotenv").config();
 
-// Import your routes
+// Import routes
 const authRoutes = require("../routes/auth");
 const categoryRoutes = require("../routes/categories");
 const todoRoutes = require("../routes/todos");
